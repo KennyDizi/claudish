@@ -1,6 +1,6 @@
 {
   "name": "claudish",
-  "version": "2.8.0",
+  "version": "2.8.1",
   "description": "Run Claude Code with any OpenRouter model - CLI tool and MCP server",
   "type": "module",
   "main": "./dist/index.js",
@@ -27,11 +27,11 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.19.6",
-    "@inquirer/prompts": "^8.0.1",
-    "@inquirer/search": "^4.0.1",
-    "@modelcontextprotocol/sdk": "^1.22.0",
+    "@inquirer/prompts": "^8.0.2",
+    "@inquirer/search": "^4.0.2",
+    "@modelcontextprotocol/sdk": "^1.24.3",
     "dotenv": "^17.2.3",
-    "hono": "^4.10.6",
+    "hono": "^4.10.7",
     "zod": "^4.1.13"
   },
   "devDependencies": {
